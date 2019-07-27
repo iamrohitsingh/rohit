@@ -1,0 +1,154 @@
+
+
+#contact8 { 
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  width: 100px; 
+  height: 30px; 
+  background:transparent;
+  border:solid 1px #ffc001;
+  
+  color:#fff;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+ 
+}
+
+#contact8:hover { background: #ffc001; }
+#contact8:active { background: #ffc001; }
+
+#contactForm8 { 
+font-family: 'Montserrat', sans-serif;
+  display: none;
+  z-index:999;
+  border: 6px solid #ffc001; 
+  padding: 2em;
+  width: 50%;
+  text-align: center;
+  background: #fff;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%)
+  
+}
+
+
+
+@media only screen and (max-width: 600px){
+#contactForm8{
+width:96%;
+left:50%;
+}
+	
+}	
+
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#ffc001;
+    background:transparent;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+font-family:'Montserrat', sans-serif;	
+font-size:20px;
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#e9b216;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #ffc001;
+  
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #000;
+    border-bottom:5px solid #000;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+font-family:'Montserrat', sans-serif;	
+border: none;
+background:#ffc001;
+color:#fff;
+border-radius:0;
+transition:background 0.20s linear;
+font-size:20px;
+}
+
+.INPT{
+width:80%;
+height:40px;
+display:block;
+margin:20px auto auto auto;
+padding-left:10px;
+border:solid 1px #000;
+}
+.LGN h1{
+font-family:'Montserrat', sans-serif;	
+font-size:30px;
+color:#ffc001;
+text-align:center;
+}
+.LGN a{
+font-family:'Montserrat', sans-serif;	
+float:right;
+padding-right:50px;
+display:block;
+}
+.LGN button{
+font-family:'Montserrat', sans-serif;	
+width:80%;
+height:50px;
+display:block;
+margin:20px auto auto auto;
+background:#e9b216;
+border:none;
+}
+.LGN button:hover{
+background:#ffc001;
+color:#fff;
+
+}
+
+
+.INPT1{
+font-family:'Montserrat', sans-serif;	
+width:39%;
+height:40px;
+padding-left:10px;
+margin-top:20px;
+margin-top:20px;
+margin-right:1%;
+border:solid 1px #000;
+}
+.INPT2{
+font-family:'Montserrat', sans-serif;	
+width:39%;
+height:40px;
+padding-left:10px;
+margin-top:20px;
+margin-top:20px;
+border:solid 1px #000;
+}
